@@ -38,4 +38,9 @@ docker run -d --name mongo -p 2717:27017 -v ~/mongodb:/data/db mvertes/alpine-mo
 # start mongo shell
 docker exec -it mongo mongo
 ```
+## Troubleshooting
+
+- Linux: mongoimport: command not found
+
+  Install **mongodb-org-tools** with apt
 
